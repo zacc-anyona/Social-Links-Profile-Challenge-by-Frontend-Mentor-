@@ -85,8 +85,8 @@ I dare say problem solving skills was a useful resource personally.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/zacc-anyona)
-- Twitter - [@yourusername](https://twitter.com/anyona_zadocc)
+- Frontend Mentor - [@zacc-anyona](https://www.frontendmentor.io/profile/zacc-anyona)
+- Twitter - [@anyona_zadocc](https://twitter.com/anyona_zadocc)
 
 
 ## Reviews
