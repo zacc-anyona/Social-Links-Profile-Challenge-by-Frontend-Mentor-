@@ -80,7 +80,8 @@ Users should be able to:
 
 ### Useful resources
 
-There was none for this project. 
+-[Amerix HTML Course](https://www.amerix.co.ke/challenge-page/HTML-for-Beginners) Specifically the use of `<figure></figure>` from the Amerix's course helped me in solving the challenge.
+Amerix is a good teacher. His course will get you started in HTML in no time.
 I dare say problem solving skills was a useful resource personally. 
 
 ## Author
