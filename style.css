@@ -1,0 +1,167 @@
+:root {
+    --primary-green: hsl(75, 94%, 57%);
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-grey: hsl(0, 0%, 20%);
+    --neutral-off-black: hsl(0, 0%, 8%);
+    --neutral-dark-grey: hsl(0, 0%, 12%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--neutral-off-black);
+    font-family: 'Inter', sans-serif;
+    color: var(--neutral-white);
+    font-size: 16px;
+}
+
+.content {
+    background: var(--neutral-dark-grey);
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+li  {
+    list-style: none;
+    background: var(--neutral-grey);
+}
+
+.profile-name {
+    font-weight: 600;
+}
+
+.profile-location {
+    color: var(--primary-green);
+    font-weight: 600;
+    
+}
+
+.profile-job {
+    text-align: center;
+}
+
+p {
+    font-size: 0.875em;
+}
+
+figure {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+li, a {
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: var(--primary-green);
+}
+
+li > a {
+    text-decoration: none;
+    color: var(--neutral-white);
+    font-weight: 600;
+}
+
+ul {
+    padding: 0;/*Removes the default padding*/
+}
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 20% 5%;
+        font-size: 14px;
+    }
+
+    .content {
+        padding: 10%;
+        border-radius: 0.8em;
+    }
+
+    .profile-name {
+        font-size: 1.3em;
+        margin-bottom: 0.5em;
+    }
+
+    .profile-location {
+        margin-top: 0;
+        margin-bottom: 2em;
+    }
+
+    li {
+        margin: 1em;
+        border-radius: 0.5em;
+    }
+
+    li a {
+        display: block;
+        padding: 1em;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        padding: 5% 35%;
+        font-size: 16px;
+    }
+
+    .content {
+        padding: 5%;
+        border-radius: 1.3em;
+    }
+
+    .profile-name {
+        font-size: 1.5em;
+        margin-bottom: 0.65em;
+    }
+
+    .profile-location {
+        margin-top: 0;
+        margin-bottom: 2em;
+    }
+
+   li {
+        margin: 1em;
+        border-radius: 0.5em;
+    }
+
+    li a {
+        display: block;
+        padding: 1em;
+    }
+
+    
+}
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+
+}
+
+.attribution a { 
+    color: var(--primary-green); 
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: var(--neutral-white);
+}
