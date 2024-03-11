@@ -7,50 +7,51 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@400;600;700&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
   
   <title>Frontend Mentor | Social links profile</title>
 
 </head>
 <body>
 
-  <div class="content">
-    <header>
-      <figure class="profile-picture">
-        <img src="assets/images/avatar-jessica.jpeg" alt="Jessica's Profile Picture">
-        <figcaption>
-          <p class="profile-name">Jessica Randall</p>
-          <p class="profile-location">London, United Kingdom</p>
-          
-        </figcaption>
-      </figure>
-    </header>
+  <main class="content">
+      <picture>
+        <img src="./assets/images/avatar-jessica.jpeg" alt="Profile Avatar" class="profile-avatar">
 
-    <main>
-      <p class="profile-job">"Front-end developer and avid reader."</p>
-      <ul>
-        <li class="profile-link">
-          <a href="https://github.com/zacc-anyona" target="_blank">GitHub</a>
+        <h1 class="avatar-name">Jessica Randall</h1>
+        <p class="avatar-info">London, United Kingdom</p>
+      </picture>
+
+      <p class="desc-text">"Front-end developer and avid-reader."</p>
+
+      <ul class="social-links" role="list">
+        <li class="link-text">
+          <a href="#">
+            GitHub
+          </a>
         </li>
-        <li class="profile-link">
-          <a href="https://www.frontendmentor.io/profile/zacc-anyona" target="_blank">Frontend Mentor</a>
+        <li  class="link-text">
+          <a href="#">
+            Frontend Mentor
+          </a>
         </li>
-        <li class="profile-link">
-          <a href="https://www.linkedin.com/in/anyona-zaddock-154011176?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+        <li class="link-text">
+          <a href="#">
+            LinkedIn
+          </a>
         </li>
-        <li class="profile-link">
-          <a href="https://twitter.com/anyona_zadocc" target="_blank">Twitter</a>
+        <li class="link-text">
+          <a href="#">
+            Twitter
+          </a>
         </li>
-        <li class="profile-link">
-          <a href="#">Instagram</a>
+        <li class="link-text">
+          <a href="#">
+            Instagram
+          </a>
         </li>
       </ul>
-    </main>
-
-    
-  </div>
+  </main>
 
   <footer>
     <div class="attribution">
